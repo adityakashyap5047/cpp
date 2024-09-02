@@ -4,4 +4,4 @@ To run this code in the terminal simply run this command
 
 And then type this command
 
-`./<fill_name>`
+`./<file_name>`
