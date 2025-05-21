@@ -1,0 +1,7 @@
+C++ 
+
+    1. Platform Dependent
+    2. Object - oriented
+    3. Statically - typed
+    4. Speed
+    5. Pointers
