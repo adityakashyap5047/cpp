@@ -1,7 +1,47 @@
-To run this code in the terminal simply run this command
+# C++ Project
 
-`g++ <file_name>.cpp -o <file_name>`
+This repository contains C++ source code and related files. Below you'll find a detailed description, file structure, and instructions on how to compile and run the code.
 
-And then type this command
+## Description
 
-`./<file_name>`
+This project demonstrates C++ programming concepts, including classes, functions, and standard library usage. It is suitable for beginners and intermediate learners looking to understand C++ project organization and compilation.
+
+## File Structure
+
+```
+cpp/
+├── README.md           # Project documentation
+├── src/                # Source code files (.cpp)
+├── build/              # Compiled binaries (created after build)
+
+```
+
+## How to Run C++ Code
+
+### Using Command Line
+
+1. **Navigate to the project directory:**
+    ```sh
+    cd "C:/Users/adity/Desktop/c plus plus"
+    ```
+
+2. **Compile the code:**
+    ```sh
+    g++ src/main.cpp -Iinclude -o build/main.exe
+    ```
+
+3. **Run the executable:**
+    ```sh
+    build\main.exe
+    ```
+
+
+## Requirements
+
+- [GCC](https://gcc.gnu.org/) or [MinGW](http://www.mingw.org/) (for Windows)
+- Command line access
+
+## Notes
+
+- Place additional `.cpp` files in the `src/` folder and headers in `include/`.
+- Update the `Makefile` as needed for new files.
