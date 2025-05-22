@@ -19,5 +19,10 @@ int main() {
     int balance = 500;
     cout << "Balance: " << balance << endl;  
 
+    const int uid = 34323;
+    cout << "User ID: " << uid << endl;
+
+    // uid = 2322; // This line will cause a compilation error because uid is a constant
+
     return 0;
 }
