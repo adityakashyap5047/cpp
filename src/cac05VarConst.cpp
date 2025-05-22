@@ -12,5 +12,12 @@ int main() {
         It can span multiple lines
     */
 
+    int score;  // Variable declaration
+    score = 100;  // Variable assignment
+    cout << "Score: " << score << endl;  // Output the value of score
+
+    int balance = 500;
+    cout << "Balance: " << balance << endl;  
+
     return 0;
 }
