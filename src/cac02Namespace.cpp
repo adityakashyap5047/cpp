@@ -8,7 +8,9 @@ namespace hello {
     }
 }
 
+using namespace hello;
+
 int main() {
-    hello::display();
+    display();
     return 0;
 }
