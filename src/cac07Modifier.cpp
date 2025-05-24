@@ -9,6 +9,8 @@ int main() {
 
     long largeTeaPack = 1200000;
 
+    short teaSample = 120;
+
     cout << largeTeaPack << endl;
 
     return 0;
